@@ -1,0 +1,17 @@
+let input = document.getElementById('myInput');
+let button = document.getElementById('myBtn');
+
+button.disabled = true;   // Make button disabled initially
+
+input.addEventListener('keyup', function(event){
+   
+   let val = event.target.value;  // input's current value
+   
+   if(val===''){
+       button.disabled = true;  // Make button disabled
+   }
+   else{
+       button.disabled = false;  // Make button enabled 
+   }
+   
+});

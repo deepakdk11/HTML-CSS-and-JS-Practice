@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <title>Love Calculator</title>
+</head>
+<body>
+    <div class="index">
+        <div class="group1">
+            <div class="your">
+                <label for="name">YOUR NAME</label><br/>
+                <input type="text" id="name" class="myinput">
+            </div>
+            <div class="radio1">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="group2">
+            <div class="partner">
+                <label for="pat">PARTNER'S NAME</label><br/>
+                <input type="text" name="partner name" id="pat" class="myinput">
+            </div>
+            <div class="radio1">
+                <input type="radio" name="gende" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gende" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <div class="btn">
+            <button type="submit">Calculate Your Love %</button>
+        </div>
+    </div>
+    <div class="result">
+        <h3></h3>
+        <p></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
