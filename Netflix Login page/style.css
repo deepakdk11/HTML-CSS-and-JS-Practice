@@ -1,0 +1,291 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img img{
+    position: relative;
+    /* border: 1px solid; */
+    width: 220px;
+    padding: 0px;
+    margin: 0px;
+    right: 10px;
+    bottom: 30px;
+}
+
+.index{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column; 
+}
+
+h1{
+    /* border: 1px solid; */
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+form input{
+    font-weight:520;
+    font-size: 15px;
+    border: 0px solid;
+    border-radius: 4px;
+    background-color:  rgb(43, 41, 41);
+    padding: 10px 10px 10px 25px;
+    width: 650px;
+    height: 35px;
+    margin: 7px;
+    color: white;
+    margin-left: 25px;
+}
+
+button{
+    width: 690px;
+    height: 50px;
+    margin: 25px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: rgb(216, 15, 15);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px ;
+}
+
+.index .checkbox{
+    margin: 10px;
+    margin-left: 18px;
+    font-size: 12px;
+    
+}
+
+.checkbox label{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(189, 171, 171);
+}
+
+.checkbox span{
+    margin-top: 0px;
+    margin-left: 450px;
+    /* border: 1px solid; */
+}
+
+.index .new{
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-left: 25px;
+    font-size: 13px;
+    color: rgb(163, 179, 173);
+    border: 0px
+}
+
+.index .last{
+    width: 520px;
+    margin-top: 0px;
+    margin-left: 25px;
+    padding-top: 0px;
+    /* padding-bottom: 100px; */
+    font-size: 13px;
+    color: rgb(163, 179, 173);
+    margin-bottom: 80px;
+}
+
+.new p, .last p{
+    margin: 5px;
+}
+
+.img{
+    height: 100px;
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+}
+
+footer{
+    /* border: 1px solid; */
+    display: flex;
+    font-size: 13px;
+    color: rgb(121, 119, 119);
+    width: 100%;
+}
+
+.para{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 18px;
+    color: rgb(121, 119, 119);
+}
+
+footer .foot1{
+    margin-left: 40px;
+    margin-bottom: 50px;
+    flex: 1;
+}
+
+footer .foot2{
+    flex: 1;
+}
+footer .foot3{
+    flex: 1;
+}
+
+.foot1 select{
+    margin-top: 20px;
+    padding: 15px 25px 15px 25px;
+    color: rgb(131, 125, 125);
+    border: 2px solid rgb(105, 102, 102);
+    border-radius: 5px;
+    background-color: rgb(8, 8, 8);
+}
+
+hr{
+    width: 100%;
+}
+
+
+@media all and (min-width:740px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        background-image: url(./Images/netflix_background.png);
+        background-color: rgba(0, 0, 0,.9);
+        
+    }
+    
+    .index{
+        width: 450px;
+        background-color: rgba(0, 0, 0,.7);
+        padding-top: 0px;
+        margin: 0px auto;
+        border-radius: 5px;
+        border: 1px solid  rgba(0, 0, 0,.7);
+    }
+    
+    form, .index .btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    form input{
+        font-weight:520;
+        font-size: 15px;
+        border: 0px;
+        border-radius: 4px;
+        background-color:  rgb(43, 41, 41);
+        padding: 10px 10px 10px 25px;
+        width: 300px;
+        height: 35px;
+        margin: 7px;
+        color: white;
+    }
+    
+    button{
+        width: 330px;
+        height: 50px;
+        margin: 25px;
+        margin-bottom: 0px;
+        border-radius: 4px;
+        border: 0px;
+        background-color: rgb(216, 15, 15);
+        color: white;
+        font-weight: bolder;
+        font-size: 15px ;
+    }
+    
+    h1{
+        margin-left: 50px;
+        padding: 30px 30px 0px 15px;
+    }
+    
+    .index .checkbox{
+        margin: 10px;
+        margin-left: 55px;
+        font-size: 12px;
+        
+    }
+    
+    .checkbox label{
+        padding: 0px;
+        margin: 0px;
+        color: rgb(189, 171, 171);
+    }
+    
+    .checkbox span{
+        margin-left: 145px;
+    }
+    
+    .index .new{
+        margin-top: 70px;
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-left: 60px;
+        font-size: 13px;
+        color: rgb(163, 179, 173);
+    }
+    
+    .index .last{
+        width: 320px;
+        margin-top: 0px;
+        margin-left: 60px;
+        padding-bottom: 100px;
+        font-size: 13px;
+        color: rgb(163, 179, 173);
+    }
+    
+    
+    
+    .img img{
+        width: 200px;
+        border: 0px solid;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .img{
+        border: 0px solid;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .new a{
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+    }
+    
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .new a:hover{
+        text-decoration: underline;
+    }
+
+    hr{
+        border: 1px;
+        width: 100%;
+    }
+    
+    footer{
+        /* border: 1px solid; */
+        background-color: rgba(0, 0, 0,.7);
+        /* padding-left: 100px; */
+        width: 100%;
+    }
+    .foot0{
+        border: 1px solid rgba(0, 0, 0,.0);
+        background-color: rgba(0, 0, 0,.7);
+    }
+}

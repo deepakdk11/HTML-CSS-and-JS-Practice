@@ -1,0 +1,70 @@
+body{
+    background-image: url(./img.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+
+
+.form{
+    width: 300px;
+    margin: 200px auto;
+    background-color: rgba(0,0,0,.3);
+    padding: 10px 30px 30px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+div .text{
+    display: block;
+    
+}
+
+
+.username input,.password input, .mail input{
+    width: 100%;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(0,0,0,.3);
+    border: 0px;
+}
+
+.radio{
+    margin: 15px;
+}
+
+.btn{
+    margin: 10px;
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+button{
+    background-color: rgba(0,0,0,.3);
+    color: whitesmoke;
+    border: 0px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+
+button:hover{
+    transition: 300ms;
+    background-color: rgb(64, 64, 145);
+    padding: 10px 30px 10px 30px;
+}
+
+button:focus{
+    background-color: brown;
+    padding: 10px 30px 10px 30px;
+}
+
